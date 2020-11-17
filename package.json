@@ -1,0 +1,25 @@
+{
+  "name": "ideia-boa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acwronski/ideia-boa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acwronski/ideia-boa/issues"
+  },
+  "homepage": "https://github.com/acwronski/ideia-boa#readme",
+  "dependencies": {
+    "dom": "0.0.3",
+    "next": "^10.0.1",
+    "react": "^17.0.1"
+  }
+}
