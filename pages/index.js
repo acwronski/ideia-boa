@@ -3,7 +3,9 @@ import {useState} from 'react';
 function Home() {
     return (
         <div>
-            <h1>Home</h1>
+            <h1>Pagina Inicial</h1>
+            <h2>Antonio Carlos Wronski</h2>
+
             <Contador/>
             <div>Teste</div>
 
