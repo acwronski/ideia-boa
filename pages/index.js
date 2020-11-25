@@ -5,6 +5,7 @@ function Home() {
         <div>
             <h1>Pagina Inicial</h1>
             <h2>Antonio Carlos Wronski</h2>
+            <h3>projetando</h3>
 
             <Contador/>
             <div>Teste</div>
