@@ -14,10 +14,12 @@ function Home() {
 
             <Contador/>
             <div>Teste</div>
+            
 
         </div>
     )
 }
+window.prompt('qual seu nome')
 function Contador(){
     const [contador, setContador] = useState(1);
 
