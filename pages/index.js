@@ -2,7 +2,7 @@ import {useState} from 'react';
 
 
 function Home() {
-    window.prompt('qual seu nome')
+    
     return (
         <div>
             
