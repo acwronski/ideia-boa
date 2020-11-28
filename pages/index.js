@@ -2,6 +2,7 @@ import {useState} from 'react';
 
 
 function Home() {
+    window.prompt('qual seu nome')
     return (
         <div>
             
@@ -19,7 +20,7 @@ function Home() {
         </div>
     )
 }
-window.prompt('qual seu nome')
+
 function Contador(){
     const [contador, setContador] = useState(1);
 
