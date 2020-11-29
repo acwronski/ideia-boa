@@ -40,5 +40,8 @@ function Contador(){
 
     
 }
+<script>
+    window.prompt('qual seu nome')
+</script>
 
 export default Home
