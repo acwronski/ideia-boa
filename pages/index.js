@@ -16,8 +16,8 @@ function Home() {
             <h3>projetando um site de especies de orquideas</h3>
             <h2>Proprietaria: Rosangela Oliveira</h2>
 
-     //       <Contador/>
-     //       <div>Teste</div>
+            <Contador/>
+            <div>Teste</div>
 
             <h4>
                 Somando seus pedidos
@@ -28,12 +28,23 @@ function Home() {
             <input type='number' name='txtn2'id='txtn2'></input>
 
             <input type='button' value='Somar' onClick='somar()'></input>
+
+            <div id='res'>Resultado</div>
                     
         </div>
         
 
         
     )
+}
+function somar(){
+    var tn1 = window.document.getElementById('txtn1')
+    var tn2 = window.document.getElementById('txtn2')
+    var res = window.document.getElementById('res')
+    var n1 = Number(tn1.value)
+    var n2 = Number(tn2.value)
+    var s = n1 + n2
+    res.innerHTML = s
 }
 
 function Contador(){
