@@ -19,12 +19,14 @@ function Home() {
             <Contador/>
             <div>Teste</div>
 
-            <script>
-                window.prompt('qual seu nome')
-            </script>
-            
+            <input type='number' name='txtn1' id='txtn1'></input>
 
+            <input type='number' name='txtn2'id='txtn2'></input>
+                    
         </div>
+        
+
+        
     )
 }
 
@@ -44,6 +46,7 @@ function Contador(){
 
     
 }
+
 
 
 export default Home
