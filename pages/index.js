@@ -16,12 +16,18 @@ function Home() {
             <h3>projetando um site de especies de orquideas</h3>
             <h2>Proprietaria: Rosangela Oliveira</h2>
 
-            <Contador/>
-            <div>Teste</div>
+     //       <Contador/>
+     //       <div>Teste</div>
 
-            <input type='number' name='txtn1' id='txtn1'></input>
+            <h4>
+                Somando seus pedidos
+            </h4>
+
+            <input type='number' name='txtn1' id='txtn1'></input> +
 
             <input type='number' name='txtn2'id='txtn2'></input>
+
+            <input type='button' value='Somar' onClick='somar()'></input>
                     
         </div>
         
