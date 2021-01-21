@@ -9,8 +9,8 @@ function Home() {
     
     return (
         <div>
-            <Link>
-            <a href="/sobre">Acessar pagina sobre</a>
+            <Link href="/sobre">
+            <a>Acessar pagina sobre</a>
             </Link>
             <h1>Paraiso das orquideas </h1>
             <h3>Desenvolvido por:</h3>
