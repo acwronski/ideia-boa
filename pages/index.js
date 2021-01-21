@@ -2,13 +2,16 @@
 
 
 import {useState} from 'react';
+import Link from 'next/link';
 
 
 function Home() {
     
     return (
         <div>
-            
+            <Link>
+            <a href="/sobre">Acessar pagina sobre</a>
+            </Link>
             <h1>Paraiso das orquideas </h1>
             <h3>Desenvolvido por:</h3>
 
@@ -30,6 +33,7 @@ function Home() {
             <input type='button' value='Somar' onClick='somar()'></input>
 
             <div id='res'>Resultado</div>
+            
                     
         </div>
         
@@ -45,6 +49,7 @@ function somar(){
     var n2 = Number(tn2.value)
     var s = n1 + n2
     res.innerHTML = s
+    
 }
 
 function Contador(){
