@@ -1,4 +1,5 @@
 function Tempo(props) {
+    console.log('>Passando pelo frontend;');
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toGMTString();
 
